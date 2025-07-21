@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const express = require('express');
 const cors = require('cors');
 
-const MONGO_URI = procces.env.MONGO_URI
+const MONGO_URI = proccess.env.MONGO_URI
 const questionSchema = new mongoose.Schema({
   question: {
     type: String,
